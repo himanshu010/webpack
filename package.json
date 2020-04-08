@@ -161,7 +161,7 @@
       "eslint --cache"
     ],
     "*.{ts,json,yml,yaml,md}|examples/*.md": [
-      "prettier --check"
+      "prettier --check && prettier--write"
     ],
     "*.md|{.github,benchmark,bin,examples,hot,lib,schemas,setup,tooling}/**/*.{md,yml,yaml,js,json}": [
       "cspell"
