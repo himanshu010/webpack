@@ -1,4 +1,4 @@
-# Setup
+# theSetup
 
 At webpack we use `yarn` to execute commands.
 
