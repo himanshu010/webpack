@@ -153,7 +153,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "git-format-staged -f 'prettier --stdin --stdin-filepath \"{}\"' '*.js' '*.jsx' '*.ts' '*.tsx' '*.css' '*.json' '*.gql'"
     }
   },
   "lint-staged": {
